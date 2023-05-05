@@ -1,0 +1,56 @@
+body {
+    /* display: flex; */
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    height: 7.5vh;
+    padding: 10px;
+}
+
+.links-rechts {
+    display: flex;
+    justify-content: space-around;   
+    gap: 10px; 
+}
+
+.awesome {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 20vh;
+    justify-content: space-around;
+}
+
+.information{
+    background-color: wheat;
+    height: 30vh;
+}
+
+.thor {
+    background-color: #E5E7EB;
+    height: 20vh;
+}
+
+.action {
+    background-color: white;
+    height: 15vh;
+}
+
+.foot {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 7.5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
