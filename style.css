@@ -26,11 +26,21 @@ body {
     justify-content: space-around;
 }
 
+.awesome-left h1{
+    font-size: 48px; 
+    font-weight: extra-bold;
+    margin: -10px 0;
+}
+
+.awesome-left div{
+    margin-top: 15px;
+}
+
 .information{
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 25vh;
+    height: 30vh;
     justify-content: center;
     align-items: center;
     border: black;
@@ -45,8 +55,8 @@ body {
 .box {
     display: flex;
     flex-direction: column;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 4px solid blue;
     border-radius: 10px;
     margin: 0 40px;
@@ -55,7 +65,7 @@ body {
 
 .box p {
     display: flex;
-    margin-top: 110px;
+    margin-top: 90px;
     justify-content: center;
 }
 
@@ -66,18 +76,46 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    height: 20vh;
+    height: 17vh;
 }
 
-.thor.name {
+.thor div {
     display: flex;
-    align-self: flex-end;
+    margin-top: -20px;
+}
+
+.thor p {
+    font-style: italic;
+    font-size: 36px;
 }
 
 .action {
+    display: flex;
+    justify-content: center;
     background-color: white;
     height: 15vh;
+}
 
+.action-box {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 60px;
+    background-color: blue;
+    border: 4px solid blue;
+    border-radius: 10px;
+    margin: 25px 40px;
+    justify-content: space-around;
+}
+
+.call {
+    color: white;
+    margin-top: 20px;
+}
+
+button {
+    height: 20px;
+    margin: 20px 0px;
 }
 
 .foot {
